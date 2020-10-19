@@ -1,2 +1,2 @@
 # movie App 2020
-React js Fundatodld Good Luck!
+Creating React js Good Luck!

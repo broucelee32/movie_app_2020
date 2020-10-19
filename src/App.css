@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color:#000;
 }
 
 .App-logo {
@@ -21,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +36,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.test{
+  width:500px;
+  border:1px solid #ccc;
+  display:flex;
+}
+.left{
+  width:100px;
+}
+.right{
+  flex:1;
+  overflow-x: auto;
+}
+table{
+  width:100%;
+}
+td, th{
+  height:30px;
+  white-space: nowrap;
 }
